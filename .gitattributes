@@ -1,0 +1,9 @@
+# Keep HTML files byte-for-byte without automatic line-ending conversion.
+*.html -text
+
+# Normalize documentation and config files.
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
