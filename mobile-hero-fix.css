@@ -1,0 +1,62 @@
+/* V1 mobile hero optimization */
+@media (max-width: 760px) {
+  .hero {
+    min-height: auto !important;
+    padding: 6.5rem 0 2.75rem !important;
+  }
+
+  .hero__top {
+    gap: 2.2rem !important;
+  }
+
+  .hero__headline {
+    max-width: 100% !important;
+    font-size: clamp(3rem, 15vw, 4.45rem) !important;
+    line-height: .96 !important;
+    letter-spacing: -.045em !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+    hyphens: auto !important;
+  }
+
+  .hero__sub {
+    margin-top: 1.35rem !important;
+    max-width: 100% !important;
+    font-size: 1rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .hero__cta-row {
+    margin-top: 1.8rem !important;
+    gap: .75rem !important;
+  }
+
+  .hero__cta-row .btn {
+    width: 100% !important;
+    justify-content: center !important;
+    min-height: 50px !important;
+  }
+
+  .hero__media {
+    border-radius: 24px !important;
+    margin-top: .25rem !important;
+  }
+
+  .hero__media img {
+    height: 360px !important;
+  }
+
+  .hero__caption {
+    padding: .9rem 1rem !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero__headline {
+    font-size: clamp(2.65rem, 14vw, 3.65rem) !important;
+  }
+
+  .hero__media img {
+    height: 320px !important;
+  }
+}
